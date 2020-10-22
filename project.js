@@ -18,9 +18,10 @@
  * sumOdds([1, 2, 3, 4, 5, 6, 7, 8, 9]) -> 25
  * sumOdds([3, 7, 8, 15, 2, 1, 13]) -> 39
  */
-function sumOdds(numbers) {
-  // Your code here
+function  sumOdds(numbers) {
+ return nummbers.forEach % !==0;
 }
+
 
 /**
  * characterCount(string, c):
@@ -103,9 +104,17 @@ function afterX(numbers, x) {
  *
  * Hint: Use string method .toUpperCase()
  */
+
 function abbreviate(firstName, lastName) {
-  // Your code here
+  console.log(
+    firstName[0].toUpperCase() +
+      firstName.slice(1) +
+      lastName[0].toUpperCase() +
+      lastName.slice(1)
+  );
 }
+
+abbreviate("lulu ", "al rabiah");
 
 /**
  * isUpperCase(string):
@@ -118,9 +127,11 @@ function abbreviate(firstName, lastName) {
  *
  */
 function isUpperCase(string) {
-  // Your code here
+  if (string === string.toUpperCase()) {
+    return true;
+  }
 }
-
+console.log(isUpperCase("LULU"));
 /**
  * elementInArray(numbers, x):
  * - receives an array of numbers, and a number `x`.
@@ -146,8 +157,9 @@ function elementInArray(numbers, x) {
  *
  */
 function reverseString(string) {
-  // Your code here
+  return string.split("").reverse().join("");
 }
+console.log(reverseString("hello"));
 
 // console.log(sumOdds([3, 7, 8, 15, 2, 1, 13]));
 // console.log(characterCount("Character Count is clever", "c"));
